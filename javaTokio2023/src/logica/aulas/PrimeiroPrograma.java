@@ -11,16 +11,18 @@ public class PrimeiroPrograma {
 		double salario = 1318.20;
 		System.out.println(salario);
 		
-		/* String tem S maiúsculo pq é uma classe, não uma variável igual "int" ou "double" */
+		// String tem S maiúsculo pq é uma classe, não uma variável igual "int" ou "double" 
 		String nome = "Diego";
 		System.out.println(nome);
 		
-		/* Operadores para String */
+		// Operadores para String
 		System.out.println("Bem-vindo, " + nome + "!");
 		
 		System.out.println(nome + ", você tem " + idade + " anos");
 		
 		System.out.println(nome + ", você tem " + (idade + idade) + " anos");
+		
+		
 	}
 
 }

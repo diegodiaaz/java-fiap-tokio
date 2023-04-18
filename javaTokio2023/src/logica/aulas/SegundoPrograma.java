@@ -13,8 +13,13 @@ public class SegundoPrograma {
 		
 		System.out.println("Bem-vindo, " + nome + " seu monstro");
 		
-		System.out.println("Digite sua idade");
-		System.out.println("Sua idade é: " + sc.nextLine());
+		System.out.println("Digite sua idade: ");
+		int idade = sc.nextInt();
+		
+		System.out.println("Sua idade é: " + idade + " anos");
+		
+
+		sc.close();
 	}
 
 }
