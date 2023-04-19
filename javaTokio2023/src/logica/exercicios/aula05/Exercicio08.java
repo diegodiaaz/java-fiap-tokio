@@ -21,12 +21,12 @@ public class Exercicio08 {
 		
 		double valorIene = (valorReal * 26.50);
 		
-		System.out.printf("Valor em Real fornecido: " + "%.2f", valorReal + "\n");
-		System.out.printf("Valor esquivalente em Dólar: " + "%.2f", valorDolar + "\n");
-		System.out.printf("Valor esquivalente em Euro: " + "%.2f", valorEuro + "\n");
-		System.out.printf("Valor esquivalente em Peso: " + "%.2f", valorPeso + "\n");
-		System.out.printf("Valor esquivalente em Libra: " + "%.2f", valorLibra + "\n");
-		System.out.printf("Valor esquivalente em Iene: " + "%.2f", valorIene + "\n");
+		System.out.printf("Valor em Real fornecido: %.2f" , valorReal);
+		System.out.printf("\nValor esquivalente em Dólar: %.2f", valorDolar);
+		System.out.printf("\nValor esquivalente em Euro: %.2f", valorEuro);
+		System.out.printf("\nValor esquivalente em Iene: %.2f", valorIene);
+		System.out.printf("\nValor esquivalente em Peso: %.2f", valorPeso);
+		System.out.printf("\nValor esquivalente em Libra: %.2f", valorLibra);
 
 	}
 
