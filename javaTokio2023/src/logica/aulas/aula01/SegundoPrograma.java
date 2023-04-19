@@ -1,4 +1,4 @@
-package logica.aulas;
+package logica.aulas.aula01;
 
 import java.util.Scanner;
 
