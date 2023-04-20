@@ -16,14 +16,16 @@ public class Exercicio07 {
 		double valorPago = Double.parseDouble(sc.nextLine());
 		
 		double valorTroco = (valorPago - valorProd);
-		// String valorTrocoS= String.valueOf(valorTroco);
-		
+				
 		if (valorPago <= valorProd) {
 			System.out.println("Sem troco!");
 		} else {
 			System.out.printf("%.2f", valorTroco);
 		}
 		
+		
+		
+		sc.close();
 	}
 		
 }
