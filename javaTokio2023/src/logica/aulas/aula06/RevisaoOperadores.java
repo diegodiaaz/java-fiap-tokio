@@ -1,5 +1,4 @@
 package logica.aulas.aula06;
-import java.util.Scanner;
 
 public class RevisaoOperadores {
 
