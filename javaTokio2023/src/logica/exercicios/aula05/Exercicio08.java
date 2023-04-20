@@ -27,7 +27,12 @@ public class Exercicio08 {
 		System.out.printf("\nValor esquivalente em Iene: %.2f", valorIene);
 		System.out.printf("\nValor esquivalente em Peso: %.2f", valorPeso);
 		System.out.printf("\nValor esquivalente em Libra: %.2f", valorLibra);
-
+		
+		
+		
+		
+		
+		sc.close();
 	}
 
 }
