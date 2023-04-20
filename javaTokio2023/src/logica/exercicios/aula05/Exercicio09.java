@@ -18,7 +18,8 @@ public class Exercicio09 {
 
 		if (num < 999) {
 			
-			System.out.println("A centena do número é: " + numCent + "00\nA dezena do número é: " + numDez
+			System.out.println("A centena do número é: " + numCent 
+					+ "00\nA dezena do número é: " + numDez
 					+ "0\nA unidade do número é: " + numUni);
 
 		} else {
@@ -30,7 +31,8 @@ public class Exercicio09 {
 			int num2Dez = (num2 % 100) / 10;
 			int num2Uni = ((num2 % 100) % 10);
 			
-			System.out.println("A centena do número é: " + num2Cent + "00\nA dezena do número é: " + num2Dez
+			System.out.println("A centena do número é: " + num2Cent 
+					+ "00\nA dezena do número é: " + num2Dez
 					+ "0\nA unidade do número é: " + num2Uni);
 			
 		}
