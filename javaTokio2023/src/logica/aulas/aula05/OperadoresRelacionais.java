@@ -20,5 +20,7 @@ public class OperadoresRelacionais {
 		
 		boolean comparacao = num1 <  num2;
 		System.out.println(comparacao);
+		
+		System.out.println(ligado); // Só para parar de dar erro
 	}
 }
