@@ -20,9 +20,9 @@ public class Exercicio03 {
 		} else if (media < 5) {
 			JOptionPane.showMessageDialog(null, String.format("A média do aluno foi: %.1f", media, "\nO aluno está reprovado"));/*(null, "O aluno está reprovado!");*/		
 			
+		}else {
+			JOptionPane.showMessageDialog(null, "bota os ngc direito mlk");
 		}
-		
-		// JOptionPane.showMessageDialog(null, String.format("A média do aluno foi: %.2f", media));
 	}
 
 }
