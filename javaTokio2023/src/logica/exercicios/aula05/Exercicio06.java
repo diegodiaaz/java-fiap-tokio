@@ -1,44 +1,28 @@
 package logica.exercicios.aula05;
 
-import java.util.Scanner;
+import javax.swing.*;
 
 public class Exercicio06 {
 
 	public static void main(String[] args) {
 		
-		Scanner sc = new Scanner(System.in);
+		String peca1 = JOptionPane.showInputDialog(null, "Insira o nome da primeira peça desejada: ");
+		double precoUni1 = Double.parseDouble(JOptionPane.showInputDialog(null, "Insira o preço da primeira peça desejada: "));
+		int qntPecas1 = Integer.parseInt(JOptionPane.showInputDialog(null, "Insira a quantidade desejada: "));
 		
-		System.out.print("Qual o nome da primeira peça desejada? - ");
-		String peca1 = sc.nextLine();
-		
-		System.out.print("Qual o valor da primeira peça desejada? - ");
-		double precoUni1 = Double.parseDouble(sc.nextLine());
-		
-		System.out.print("Quantas peças você deseja? - ");
-		int qntPecas1 = Integer.parseInt(sc.nextLine());
-		
-		
-		System.out.println(" ");
-		
-		
-		System.out.print("Qual o nome da segunda peça desejada? - ");
-		String peca2 = sc.nextLine();
-		
-		System.out.print("Qual o valor da segunda peça desejada? - ");
-		double precoUni2 = Double.parseDouble(sc.nextLine());
-		
-		System.out.print("Quantas peças você deseja? - ");
-		int qntPecas2 = Integer.parseInt(sc.nextLine());
+		String peca2 = JOptionPane.showInputDialog(null, "Insira o nome da segunda peça desejada: ");
+		double precoUni2 = Double.parseDouble(JOptionPane.showInputDialog(null, "Insira o preço da segunda peça desejada: "));
+		int qntPecas2 = Integer.parseInt(JOptionPane.showInputDialog(null, "Insira a quantidade desejada: "));
 		
 		
 		double valorFinal = (precoUni1 * qntPecas1) + (precoUni2 * qntPecas2);
 		
-		System.out.println("O valor que deverá ser pago é de: R$" + valorFinal);
+		JOptionPane.showMessageDialog(null, String.format("O valor que deverá ser pago é de: R$%.2f" , valorFinal));
 		
 		
+		System.out.println(peca1 + " " + peca2);
 		
-		
-		sc.close();
+	
 
 	}
 
