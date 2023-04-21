@@ -1,6 +1,6 @@
 package logica.aulas.aula07;
 
-import javax.swing.JOptionPane;
+// import javax.swing.JOptionPane;
 
 public class WhileLaco {
 
