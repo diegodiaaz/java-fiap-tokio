@@ -20,7 +20,7 @@ public class Exercicio07 {
 		if (valorPago <= valorProd) {
 			System.out.println("Sem troco!");
 		} else {
-			System.out.printf("%.2f", valorTroco);
+			System.out.printf("O troco é: R$%.2f", valorTroco);
 		}
 		
 		
