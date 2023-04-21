@@ -15,7 +15,9 @@ public class Atividade02 {
 		System.out.println(num + " x 2 = " + (num * 3));
 		System.out.println(num + " x 2 = " + (num * 4));
 		System.out.println(num + " x 2 = " + (num * 5));
-
+		
+		
+		sc.close();
 	}
 
 }
