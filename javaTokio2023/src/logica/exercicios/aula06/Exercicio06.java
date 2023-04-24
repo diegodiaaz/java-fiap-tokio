@@ -17,7 +17,7 @@ public class Exercicio06 {
 		if (conta > 0 && conta < 16) {
 			JOptionPane.showMessageDialog(null, "Você tem: " + conta + " anos. " 
 		+ "\nVoto proibido por lei!");
-		} else if (conta >= 16 && conta < 18 || conta > 70) {
+		} else if ((conta >= 16 && conta < 18) || conta > 70) {
 			JOptionPane.showMessageDialog(null, "Você tem: " + conta + " anos. " 
 		+ "\nVoto opcional!");
 		} else {

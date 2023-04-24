@@ -12,6 +12,12 @@ public class Exercicio08 {
 		double kml = km/litros;
 		
 		JOptionPane.showMessageDialog(null, String.format("O gasto de Km/l do carro é de: %.2fKm/L", kml));
+		
+		if (kml <= 8) {
+			JOptionPane.showMessageDialog(null, "Esse carro bebe hein!");
+		} else {
+			JOptionPane.showMessageDialog(null, "Autonomia legal hein!");
+		}
 
 	}
 
