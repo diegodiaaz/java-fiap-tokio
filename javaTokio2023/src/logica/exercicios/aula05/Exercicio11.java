@@ -18,9 +18,13 @@ public class Exercicio11 {
 //		System.out.printf("\n e dias: %.1f", dias);
 		
 		
-		System.out.println("A sua idade é: " + (int)idadeAnos);
-		System.out.println("meses: " + (int)idadeMeses);
-		System.out.printf("e dias: %.0f", dias);
+		JOptionPane.showMessageDialog(null, String.format("Você tem: " + (int)idadeAnos 
+				+ " anos, " + (int)idadeMeses 
+				+ " meses e %.0f dias", dias));
+//		
+//		System.out.println("A sua idade é: " + (int)idadeAnos);
+//		System.out.println("meses: " + (int)idadeMeses);
+//		System.out.printf("e dias: %.0f", dias);
 
 	}
 
