@@ -3,29 +3,45 @@ package logica.exercicios.aula05;
 //import java.awt.geom.RoundRectangle2D.Double;
 import java.util.Scanner;
 
+import javax.swing.JOptionPane;
+
 public class Exercicio07 {
 
 	public static void main(String[] args) {
 		
-		Scanner sc = new Scanner(System.in);
+//		Scanner sc = new Scanner(System.in);
+//		
+//		System.out.print("Insira o valor do produto: ");
+//		double valorProd = Double.parseDouble(sc.nextLine());
+//		
+//		System.out.print("Insira o valor pago: ");
+//		double valorPago = Double.parseDouble(sc.nextLine());
+//		
+//		double valorTroco = (valorPago - valorProd);
+//				
+//		if (valorPago <= valorProd) {
+//			System.out.println("Sem troco!");
+//		} else {
+//			System.out.printf("O troco é: R$%.2f", valorTroco);
+//		}
 		
-		System.out.print("Insira o valor do produto: ");
-		double valorProd = Double.parseDouble(sc.nextLine());
+		double valorProd, valorPago, valorTroco;
 		
-		System.out.print("Insira o valor pago: ");
-		double valorPago = Double.parseDouble(sc.nextLine());
+		valorProd = Double.parseDouble(JOptionPane.showInputDialog(null, "Insira o valor do produto: "));
+		valorPago = Double.parseDouble(JOptionPane.showInputDialog(null, "Insira o valor pago pelo cliente: "));
 		
-		double valorTroco = (valorPago - valorProd);
-				
+		valorTroco = (valorPago - valorProd);
+		
 		if (valorPago <= valorProd) {
-			System.out.println("Sem troco!");
+			JOptionPane.showMessageDialog(null, "Sem troco!");
 		} else {
-			System.out.printf("O troco é: R$%.2f", valorTroco);
+			JOptionPane.showMessageDialog(null, String.format("O troco é: R$%.2f", valorTroco));
 		}
 		
 		
 		
-		sc.close();
+		
+		
 	}
 		
 }
