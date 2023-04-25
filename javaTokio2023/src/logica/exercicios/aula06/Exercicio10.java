@@ -33,6 +33,8 @@ public class Exercicio10 {
 					+ "O percentual de aumento foi de: 5% \n" 
 					+ String.format("O valor aumentado foi de: R$%.2f \n", aumento5) 
 					+ String.format("Seu novo salário é de: R$%.2f", (salario + aumento5)));
+		} else {
+			JOptionPane.showMessageDialog(null, "Favor insira um valor!");
 		}
 		
 	}
