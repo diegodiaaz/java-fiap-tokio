@@ -10,7 +10,7 @@ public class Exercicio09 {
 		String[] lugar = {"Residência", "Comércio", "Indústria"};
 		double kwhGasto = Double.parseDouble(JOptionPane.showInputDialog(null, "Insira o gasto em KW/h"));
 		
-		int lugarEscolhido = JOptionPane.showOptionDialog(new JDesktopPane(), "Escolha o tipo de cobrança ", "COBRANÇA", 0, JOptionPane.QUESTION_MESSAGE, null, lugar, lugar[0]);
+		int lugarEscolhido = JOptionPane.showOptionDialog(null, "Escolha o tipo de cobrança ", "COBRANÇA", 0, JOptionPane.QUESTION_MESSAGE, null, lugar, lugar[0]);
 		
 		double valorRes = kwhGasto * 0.6;
 		double valorCom = kwhGasto * 0.48;
