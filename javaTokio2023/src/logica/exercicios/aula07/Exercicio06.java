@@ -9,14 +9,13 @@ public class Exercicio06 {
 		int num = Integer.parseInt(JOptionPane.showInputDialog(null, "Insira o valor desejado: ")); 
 		
 		if (num < 2) {
-			JOptionPane.showMessageDialog(null, "ERRO, INSIRA MAIOR OU IGUAL A 2");
+			JOptionPane.showMessageDialog(null, "ERRO, INSIRA MAIOR OU IGUAL A 2", "ERROR", 2);
 		}
 
 		for (int i = 2; i <= num; i += 2) {
 			System.out.println(i);
 		}
-		
-		
+				
 	}
 
 }
